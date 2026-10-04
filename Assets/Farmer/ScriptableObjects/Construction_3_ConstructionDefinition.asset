@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 322c422fed61c48479089108e028e1b8, type: 3}
+  m_Name: Construction_3_ConstructionDefinition
+  m_EditorClassIdentifier: Assembly-CSharp::Farmer.ConstructionDefinition
+  id: construction-3
+  displayName: Construction_3
+  icon: {fileID: 21300000, guid: 9f6e174293e737a44b0c7c85e4fd86f6, type: 3}
+  productPrefab: {fileID: 431050899201095724, guid: 7f43ad0a1dc9942deb52963a8ee6e6f4, type: 3}
+  prefab: {fileID: 7831511727163897852, guid: 39e712a935b00e145a961c8e0bf7c6ad, type: 3}
+  unlockPrice:
+    mantissa: 10
+    exponent: 3
+  unlockDuration: 6
+  constructionUpgradePriceDefine: {fileID: 11400000, guid: bc24c50150f956842838153794d46658, type: 2}

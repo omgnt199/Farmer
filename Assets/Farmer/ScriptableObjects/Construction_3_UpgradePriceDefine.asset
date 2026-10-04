@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e1ba937e0849a42809881cbbacce0c, type: 3}
+  m_Name: Construction_3_UpgradePriceDefine
+  m_EditorClassIdentifier: Assembly-CSharp::ConstructionUpgradePriceDefine
+  upgradeLevelDatas:
+  - Level: 1
+    UpgradeCost:
+      mantissa: 4
+      exponent: 3
+    HarvestValue:
+      mantissa: 4
+      exponent: 1
+    HarvestSpeed: 3
+    Duration: 1
+  - Level: 2
+    UpgradeCost:
+      mantissa: 1
+      exponent: 4
+    HarvestValue:
+      mantissa: 5
+      exponent: 2
+    HarvestSpeed: 5
+    Duration: 6
+  - Level: 3
+    UpgradeCost:
+      mantissa: 1
+      exponent: 5
+    HarvestValue:
+      mantissa: 7
+      exponent: 3
+    HarvestSpeed: 6
+    Duration: 10
+  - Level: 4
+    UpgradeCost:
+      mantissa: 5
+      exponent: 6
+    HarvestValue:
+      mantissa: 2
+      exponent: 4
+    HarvestSpeed: 9
+    Duration: 15
+  - Level: 5
+    UpgradeCost:
+      mantissa: 1
+      exponent: 7
+    HarvestValue:
+      mantissa: 8
+      exponent: 5
+    HarvestSpeed: 10
+    Duration: 17
+  - Level: 6
+    UpgradeCost:
+      mantissa: 4
+      exponent: 8
+    HarvestValue:
+      mantissa: 9
+      exponent: 6
+    HarvestSpeed: 13
+    Duration: 22
+  - Level: 7
+    UpgradeCost:
+      mantissa: 3
+      exponent: 9
+    HarvestValue:
+      mantissa: 4
+      exponent: 7
+    HarvestSpeed: 16
+    Duration: 25
+  - Level: 8
+    UpgradeCost:
+      mantissa: 2
+      exponent: 10
+    HarvestValue:
+      mantissa: 3
+      exponent: 8
+    HarvestSpeed: 17
+    Duration: 30
+  - Level: 9
+    UpgradeCost:
+      mantissa: 3
+      exponent: 11
+    HarvestValue:
+      mantissa: 3
+      exponent: 9
+    HarvestSpeed: 19
+    Duration: 33
+  - Level: 10
+    UpgradeCost:
+      mantissa: 1
+      exponent: 12
+    HarvestValue:
+      mantissa: 2
+      exponent: 10
+    HarvestSpeed: 22
+    Duration: 36
